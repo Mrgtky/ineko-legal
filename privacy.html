@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>INEKO プライバシーポリシー</title>
+    <meta
+      name="description"
+      content="INEKOのプライバシーポリシーです。取得する情報、利用目的、外部送信、保存期間と削除について記載しています。"
+    />
+    <style>
+      :root {
+        color-scheme: light;
+        --background: #faf6f0;
+        --surface: #fffdf9;
+        --text: #26221f;
+        --subtle: #6f655e;
+        --accent: #c46f4a;
+        --border: #eadfd5;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--background);
+        color: var(--text);
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Hiragino Sans",
+          "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+        line-height: 1.8;
+      }
+
+      main {
+        width: min(860px, 100%);
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+
+      article {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: clamp(24px, 5vw, 48px);
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(28px, 6vw, 42px);
+        line-height: 1.25;
+        letter-spacing: 0;
+      }
+
+      h2 {
+        margin: 40px 0 12px;
+        font-size: 20px;
+        line-height: 1.5;
+        letter-spacing: 0;
+      }
+
+      p {
+        margin: 0 0 16px;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 1.4em;
+      }
+
+      li {
+        margin: 0 0 8px;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+      }
+
+      .updated {
+        margin-bottom: 32px;
+        color: var(--subtle);
+      }
+
+      .lead {
+        color: var(--subtle);
+      }
+
+      .contact {
+        margin-top: 40px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1>INEKO プライバシーポリシー</h1>
+        <p class="updated">最終更新日: 2026年6月14日</p>
+
+        <p class="lead">
+          森口拓也（以下「運営者」）は、INEKO（以下「本サービス」）における利用者の情報を次の通り取り扱います。
+        </p>
+
+        <section>
+          <h2>1. 取得する情報</h2>
+          <ul>
+            <li>アカウント情報: Apple IDから提供される識別子とメールアドレス、表示名</li>
+            <li>うちの子情報: ペット名、種類、誕生日、プロフィール文、アイコン、追悼情報</li>
+            <li>投稿情報: アプリ内カメラで撮影した写真、キャプション、投稿日時、コメント</li>
+            <li>利用情報: フォロー関係、リアクション、アプリ内お知らせの既読状態、通報・ブロック、アプリの利用ログ</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>2. 利用目的</h2>
+          <ul>
+            <li>本サービスの提供（投稿の保存と表示、フォロー、リアクション、コメント、アプリ内お知らせ）</li>
+            <li>投稿写真の自動判定（実在の犬猫写真か、人物の顔が写っていないか等の判定）</li>
+            <li>不正利用の防止と通報への対応</li>
+            <li>サービス改善のための利用状況の分析</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>3. 外部への送信と処理の委託</h2>
+          <ul>
+            <li>データの保管: Supabase（認証、データベース、ストレージ、Edge Functionsのホスティング）</li>
+            <li>投稿写真の判定: 投稿時の写真はAnthropic社のAPIへ判定のために送信されます。判定以外の目的では使用されません</li>
+            <li>上記以外に、利用者の情報を第三者へ提供することはありません（法令に基づく場合を除きます）</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>4. 保存期間と削除</h2>
+          <ul>
+            <li>投稿と画像は、利用者が削除または退会するまで保存されます</li>
+            <li>判定で投稿できないと判断された写真は、投稿として保存されません</li>
+            <li>退会すると、アカウント、投稿、画像、コメント、フォロー関係、リアクションは削除されます</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>5. 利用者の権利</h2>
+          <p>
+            設定画面から、投稿の削除と退会（アカウントと全データの削除）をいつでも行えます。その他の開示・訂正のご請求は下記の連絡先までお願いします。
+          </p>
+        </section>
+
+        <section>
+          <h2>6. 改定</h2>
+          <p>
+            本ポリシーを改定する場合、重要な変更はアプリ内で通知します。
+          </p>
+        </section>
+
+        <p class="contact">
+          お問い合わせ:
+          <a href="mailto:ineko.app@gmail.com">ineko.app@gmail.com</a>
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
